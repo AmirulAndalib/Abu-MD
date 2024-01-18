@@ -16,7 +16,7 @@ Module(
 },
 		async (message, match) => {	
      match = match || message.reply_message.text;
-    if (!match) return await message.reply("*_Enterany apk name!_*");
+    if (!match) return await message.reply("*_need any word!_*");
          await sendTts(message, match);
 })
 
