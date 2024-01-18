@@ -14,7 +14,9 @@ Module(
         desc: "Its converte your text to voice",
         type: "converter",
 },
-		async (message, match) => {			
+		async (message, match) => {	
+     match = match || message.reply_message.text;
+    if (!match) return await message.reply("*_Enterany apk name!_*");
          await sendTts(message, match);
 })
 
