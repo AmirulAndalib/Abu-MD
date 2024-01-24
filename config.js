@@ -12,6 +12,8 @@ module.exports = {
 
   AUTO_STATUS_VIEWS: toBool(process.env.AUTO_STATUS_VIEWS || 'true'),
 
+  AUTO_READ: toBool(process.env.AUTO_READ || 'true'),
+  
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
 
   LOGS: toBool(process.env.LOGS) || true,
