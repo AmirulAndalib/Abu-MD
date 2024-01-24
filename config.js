@@ -10,6 +10,8 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined ? "./lib/database.db
 
 module.exports = {
 
+  AUTO_STATUS_VIEWS: toBool(process.env.AUTO_STATUS_VIEWS || 'true'),
+
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
 
   LOGS: toBool(process.env.LOGS) || true,
