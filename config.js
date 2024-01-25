@@ -13,10 +13,10 @@ module.exports = {
   AUTO_STATUS_VIEWS: toBool(process.env.AUTO_STATUS_VIEWS || 'true'),
 
   AUTO_READ: toBool(process.env.AUTO_READ || 'true'),
+
+  LOGS: toBool(process.env.LOGS || 'true'),
   
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
-
-  LOGS: toBool(process.env.LOGS) || true,
 
   AUDIO_DATA: process.env.AUDIO_DATA || 'Jsl;Abu;https://i.imgur.com/ep3UbBP.jpg',
  
