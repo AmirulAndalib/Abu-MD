@@ -3,7 +3,7 @@ services:
     name: Abu-MD
     env: node
     branch: main
-    repo: https://github.com/Aafx-Abu/Abu-MD.git
+    repo: https://github.com/Afx-Abu/Abu-MD.git
     startCommand: npm start
     plan: free
     autoDeploy: true
