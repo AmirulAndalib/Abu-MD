@@ -4,6 +4,7 @@ services:
     env: node
     branch: main
     repo: https://github.com/Afx-Abu/Abu-MD.git
+    buildCommand: yarn install --network-concurrency 1
     startCommand: npm start
     plan: free
     autoDeploy: true
